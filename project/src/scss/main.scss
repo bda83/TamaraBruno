@@ -8,9 +8,7 @@
 body {
     background: #ddd;
     margin: 0 auto;
-    max-width: 50rem;
 }
-
 ul{
     margin: 0px;
 }
@@ -24,25 +22,46 @@ nav{
     text-align: center;
 
 }
-.heading{
-    text-align: center;
-    background: url(../img/hotel.png);
-    background-position: center;
-    padding: 150px 0px;
-}
-
 a{
     text-decoration: none;
     color: $primario-claro;
 }
+img {
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    background: url(../assets/heading.png);
+    background-size: auto 100%;
+    background-position: center;
+    padding: 150px 0px;
+}
 
 .container {
+    text-align: center;
+    width: 100%;
     img {
-        padding-bottom: -20px;
+        margin-top: 0px;
     }
 }
 
-.boxInfo{
-margin: 5px 10px;
-background-color: $primario-claro;
+.textDescription {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.descripcion {
+    margin: 5px 10px;
+    background-color: $primario-claro;
+}
+.explicacion {
+    text-align: center;
+    h3 {
+        padding-top: 30px;
+    }
+}
+.description_service {
+    padding: 0px 20px 30px;
 }
