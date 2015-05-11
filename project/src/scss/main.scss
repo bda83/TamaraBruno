@@ -1,1 +1,48 @@
 @import 'base/tipography';
+@import 'base/header';
+@import 'base/heading';
+@import 'base/buscador';
+@import 'base/descripcion';
+@import 'base/variables';
+
+body {
+    background: #ddd;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+ul{
+    margin: 0px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+nav{
+    text-align: center;
+
+}
+.heading{
+    text-align: center;
+    background: url(../img/hotel.png);
+    background-position: center;
+    padding: 150px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: $primario-claro;
+}
+
+.container {
+    img {
+        padding-bottom: -20px;
+    }
+}
+
+.boxInfo{
+margin: 5px 10px;
+background-color: $primario-claro;
+}
