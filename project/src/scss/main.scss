@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 ul{
-    margin: 0px;
+    margin: 0px; //Mejor no colocar los px en el 0
 }
 li{
     text-decoration: none;
@@ -37,6 +37,8 @@ img {
     background-size: auto 100%;
     background-position: center;
     padding: 150px 0px;
+    //Falta el 'background-repeat: no-repeat;'
+
 }
 
 .container {
@@ -65,3 +67,5 @@ img {
 .description_service {
     padding: 0px 20px 30px;
 }
+
+//Mejor unificar sistema de clases; o mayúsuculas o guionesf
